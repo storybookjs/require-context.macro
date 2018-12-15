@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/storybooks/require-context.macro/issues"
   },
-  "homepage": "https://github.com/storybooks/require-context.macro#readme"
+  "homepage": "https://github.com/storybooks/require-context.macro#readme",
+  "dependencies": {
+    "babel-plugin-macros": "^2.4.2"
+  }
 }
