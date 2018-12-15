@@ -1,0 +1,24 @@
+{
+  "name": "require-context.macro",
+  "version": "1.0.0",
+  "description": "A Babel Macro for the require-context plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/storybooks/require-context.macro.git"
+  },
+  "keywords": [
+    "babel",
+    "macros",
+    "storybook"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/storybooks/require-context.macro/issues"
+  },
+  "homepage": "https://github.com/storybooks/require-context.macro#readme"
+}
