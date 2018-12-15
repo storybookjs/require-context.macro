@@ -2,7 +2,7 @@
   "name": "require-context.macro",
   "version": "1.0.0",
   "description": "A Babel Macro for the require-context plugin",
-  "main": "index.js",
+  "main": "macro/index.js",
   "scripts": {
     "test": "test"
   },
