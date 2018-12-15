@@ -4,7 +4,7 @@
   "description": "A Babel Macro for the require-context plugin",
   "main": "macro/index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,16 @@
     "url": "https://github.com/storybooks/require-context.macro/issues"
   },
   "homepage": "https://github.com/storybooks/require-context.macro#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-macros": "^2.4.2",
+    "babel-plugin-tester": "^5.5.2",
+    "jest": "^23.6.0",
+    "regenerator-runtime": "^0.13.1"
+  },
   "peerDependencies": {
     "babel-plugin-macros": "^2.4.2"
   }

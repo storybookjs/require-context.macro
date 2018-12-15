@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`require-context.macro macros 1. macros: 1. macros 1`] = `
+"
+import requireContext from './macro';
+
+requireContext('../src/components', true, /.stories.js$/);
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+\\"use strict\\";
+
+__requireContext(__dirname, '../src/components', true, /.stories.js$/);
+"
+`;
