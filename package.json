@@ -21,7 +21,7 @@
     "url": "https://github.com/storybooks/require-context.macro/issues"
   },
   "homepage": "https://github.com/storybooks/require-context.macro#readme",
-  "dependencies": {
+  "peerDependencies": {
     "babel-plugin-macros": "^2.4.2"
   }
 }
