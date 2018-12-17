@@ -7,7 +7,7 @@ function requireContextMacro({ references, state, babel: { types: t } }) {
   if (process.env.NODE_ENV === 'test') {
     references.default.forEach(path =>
       path.parentPath.replaceWith(
-        t.callExpression(t.identifier("require('require-context.macro/context')"), [
+        t.callExpression(t.identifier("require('require-context.macro/macro/context')"), [
           t.identifier('__dirname'),
           ...path.parent.arguments,
         ])
