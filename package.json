@@ -1,6 +1,6 @@
 {
   "name": "require-context.macro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Babel Macro for the require-context plugin",
   "main": "macro/index.js",
   "scripts": {
