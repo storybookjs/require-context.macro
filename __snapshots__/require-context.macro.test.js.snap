@@ -10,6 +10,6 @@ requireContext('../src/components', true, /.stories.js$/);
 
 \\"use strict\\";
 
-__requireContext(__dirname, '../src/components', true, /.stories.js$/);
+require('require-context.macro/context')(__dirname, '../src/components', true, /.stories.js$/);
 "
 `;

@@ -5,7 +5,6 @@ module.exports = createMacro(requireContextMacro);
 // Credit https://github.com/smrq/babel-plugin-require-context-hook
 function requireContextMacro({ references, state, babel: { types: t } }) {
   if (process.env.NODE_ENV === 'test') {
-    registerHookGlobally();
     references.default.forEach(path =>
       path.parentPath.replaceWith(
         t.callExpression(t.identifier("require('require-context.macro/context')"), [
