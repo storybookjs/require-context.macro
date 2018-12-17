@@ -34,4 +34,4 @@ function context(basedir, directory, useSubdirectories = false, regExp = /^\.\//
   return requireContext;
 }
 
-module.exports = { context };
+module.exports = context;
