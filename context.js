@@ -6,7 +6,13 @@ function context(basedir, directory, useSubdirectories = false, regExp = /^\.\//
     let result = [];
     fs.readdirSync(path.join(basedir, dir)).forEach(function(file) {
       const relativePath = dir + '/' + file;
-      const stats = fs.lstatSync(path.join(basedir, relativePath));
+      let filepath = path.join(basedir, relativePath);
+      let stats = fs.lstatSync(filepath);
+      while (stats.isSymbolicLink()) {
+        filepath = fs.realpathSync(filepath);
+        stats = fs.lstatSync(filepath);
+      }
+
       if (stats.isDirectory()) {
         if (useSubdirectories) {
           result = result.concat(enumerateFiles(basedir, relativePath));
