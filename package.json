@@ -29,6 +29,7 @@
     "babel-plugin-macros": "^2.6.1",
     "babel-plugin-tester": "^6.4.0",
     "jest": "^24.8.0",
+    "np": "^5.0.3",
     "regenerator-runtime": "^0.13.3"
   },
   "peerDependencies": {
