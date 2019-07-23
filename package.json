@@ -22,14 +22,14 @@
   },
   "homepage": "https://github.com/storybooks/require-context.macro#readme",
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.2.0",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^23.6.0",
-    "babel-plugin-macros": "^2.4.2",
-    "babel-plugin-tester": "^5.5.2",
-    "jest": "^23.6.0",
-    "regenerator-runtime": "^0.13.1"
+    "babel-jest": "^24.8.0",
+    "babel-plugin-macros": "^2.6.1",
+    "babel-plugin-tester": "^6.4.0",
+    "jest": "^24.8.0",
+    "regenerator-runtime": "^0.13.3"
   },
   "peerDependencies": {
     "babel-plugin-macros": "^2.4.2"
