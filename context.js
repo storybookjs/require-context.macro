@@ -27,15 +27,19 @@ function context(basedir, directory, useSubdirectories = false, regExp = /^\.\//
   const absoluteDirectory = path.resolve(basedir, directory);
   const keys = enumerateFiles(absoluteDirectory, '.');
 
-  function requireContext(key) {
+  function resolve(key) {
     if (!keys.includes(key)) {
       throw new Error(`Cannot find module '${key}'.`);
     }
-    const fullKey = require('path').resolve(absoluteDirectory, key);
-    return require(fullKey);
+    return require('path').resolve(absoluteDirectory, key);
+  }
+  
+  function requireContext(key) {
+    return require(resolve(fullKey));
   }
 
   requireContext.keys = () => keys;
+  requireContext.resolve = resolve;
 
   return requireContext;
 }
