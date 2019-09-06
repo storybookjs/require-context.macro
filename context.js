@@ -33,9 +33,9 @@ function context(basedir, directory, useSubdirectories = false, regExp = /^\.\//
     }
     return require('path').resolve(absoluteDirectory, key);
   }
-  
+
   function requireContext(key) {
-    return require(resolve(fullKey));
+    return require(resolve(key));
   }
 
   requireContext.keys = () => keys;
