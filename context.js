@@ -35,7 +35,7 @@ function context(basedir, directory, useSubdirectories = false, regExp = /^\.\//
   }
   
   function requireContext(key) {
-    return require(resolve(fullKey));
+    return require(resolve(key));
   }
 
   requireContext.keys = () => keys;
