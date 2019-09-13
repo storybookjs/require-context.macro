@@ -2,8 +2,6 @@
 
 A macro needed for some advanced Storybook@4 and Storybook@3 setups
 
-![Build Status](https://github.com/storybookjs/require-context.macro/workflows/Node%20CI/badge.svg)
-
 [![Babel Macro](https://img.shields.io/badge/babel--macro-%F0%9F%8E%A3-f5da55.svg?style=flat-square)](https://github.com/kentcdodds/babel-plugin-macros)
 
 Credit to [the original plugin](https://github.com/smrq/babel-plugin-require-context-hook/).
