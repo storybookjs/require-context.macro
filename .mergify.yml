@@ -1,0 +1,10 @@
+pull_request_rules:
+  - name: Auto-merge successful Dependabot upgrades
+    conditions:
+      - author=dependabot-preview[bot]
+      - 'status-success=ci (10.x)'
+      - 'status-success=ci (12.x)'
+    actions:
+      merge:
+        method: rebase
+        strict: true
