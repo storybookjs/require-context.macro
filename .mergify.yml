@@ -6,5 +6,5 @@ pull_request_rules:
       - 'status-success=ci (12.x)'
     actions:
       merge:
-        method: rebase
+        method: squash
         strict: true
