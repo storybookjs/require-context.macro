@@ -28,7 +28,7 @@
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^24.8.0",
+    "babel-jest": "^25.1.0",
     "babel-plugin-macros": "^2.6.1",
     "babel-plugin-tester": "^7.0.1",
     "jest": "^24.8.0",
