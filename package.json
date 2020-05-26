@@ -30,7 +30,7 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^26.0.1",
     "babel-plugin-macros": "^2.6.1",
-    "babel-plugin-tester": "^7.0.1",
+    "babel-plugin-tester": "^9.1.0",
     "jest": "^25.1.0",
     "np": "^6.0.0",
     "regenerator-runtime": "^0.13.3"
