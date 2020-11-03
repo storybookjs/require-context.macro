@@ -32,7 +32,7 @@
     "babel-plugin-macros": "^2.6.1",
     "babel-plugin-tester": "^7.0.1",
     "jest": "^25.1.0",
-    "np": "^6.0.0",
+    "np": "^7.0.0",
     "regenerator-runtime": "^0.13.3"
   },
   "peerDependencies": {
